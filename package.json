@@ -1,0 +1,29 @@
+{
+  "name": "passman-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI password manager.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthrxc/passman-cli.git"
+  },
+  "keywords": [
+    "electron",
+    "javascript",
+    "password-manager"
+  ],
+  "author": "anthrxc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anthrxc/passman-cli/issues"
+  },
+  "homepage": "https://github.com/anthrxc/passman-cli#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "enquirer": "^2.3.6",
+    "jsonfile-updater": "^3.1.0"
+  }
+}
